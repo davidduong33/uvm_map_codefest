@@ -1,0 +1,36 @@
+/**/
+
+header{
+    background-color: #92bd3f;
+    padding-bottom: 5px;
+    postion: fixed;
+}
+footer{
+    background-color: #92bd3f;
+    padding-bottom: 5px;
+}
+body{
+    background-color: #FFFDEA;
+    margin: 0;
+        
+}
+
+h1{
+   color: black;
+   -webkit-text-fill-color: #f2cd2b; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-size: 30pt;
+}
+
+/*NAVIGATION BAR*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #92bd3f;
+    position: fixed;
+    height: 100%;
+    overflow: auto; 
+}
