@@ -4,6 +4,8 @@ header{
     background-color: #92bd3f;
     padding-bottom: 5px;
     postion: fixed;
+    width: 100%;
+    margin-top: 0px;
 }
 footer{
     background-color: #92bd3f;
@@ -33,4 +35,6 @@ ul{
     position: fixed;
     height: 100%;
     overflow: auto; 
+    margin-top: 6em;
+    padding-top: 2em; 
 }
