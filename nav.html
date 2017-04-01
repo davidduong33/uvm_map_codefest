@@ -16,7 +16,16 @@
             print ' activePage ';
         }
         print '">';
-        print '<a href="waterman.php">Waterman</a>';
+        print '<a href="waterman.html">Waterman</a>';
+        print '</li>';
+		
+		//Link to Davis Center
+		print '<li class="';
+        if ($path_parts['filename'] == "daviscenter") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="daviscenter.html">Davis Center</a>';
         print '</li>';
         ?>
     </ul>
